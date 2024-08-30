@@ -72,12 +72,7 @@ console.log(mul); //60
 const div = math.division(100, 20);
 console.log(div); //5
 
-// Task :
-// 1. Create a folder named "nodejs"
-// 2. Create a file named "data.txt" inside the "nodejs" folder
-// 3. Write "This is data" inside the "data.txt" file
-// 4. Append "This is appended data" inside the "data.txt" file
-// 5. Rename the file "data.txt"
-// Research about buffer data, encoding and "utf-8"
-// Delete both file and folder
-// Difference between asynchronous and synchronous with example
+fs.appendFileSync("data.txt", `The addition: ${sum} \n`);
+fs.appendFileSync("data.txt", `The subtraction: ${sub} \n`);
+fs.appendFileSync("data.txt", `The multiplication: ${mul} \n`);
+fs.appendFileSync("data.txt", `The Division: ${div} \n`);

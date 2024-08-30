@@ -1,1 +1,6 @@
 Welcome to node.js worldThis is appended data
+
+70
+20 
+60 
+5 
